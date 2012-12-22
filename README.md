@@ -4,7 +4,8 @@ BlockingQueues chat
 Demo application: Java Swing chat with usage of java.util.concurrent.BlockingQueue.
 
 This application is ment to be build with Maven. It can be build and run with the following command:
-  mvn package exec:java
+
+    mvn package exec:java
 
 When the program starts, two windows open, each representing one chat person. Message typed by one person will be broadcasted to all registered clients.
 
