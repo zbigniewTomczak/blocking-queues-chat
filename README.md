@@ -14,7 +14,7 @@ Alternatively, if you're not using Maven, you can build and run the application 
     java -jar blocking-queues-chat.jar
     
 When the program starts, two windows open, each representing one chat person. Message typed by one person will be broadcasted to all registered clients.
-![BlockingQueues chat screenshot](https://github.com/zbigniewTomczak/blocking-queues-chat/screenshot.jpg "BlockingQueues chat screenshot")
+![BlockingQueues chat screenshot](https://raw.github.com/zbigniewTomczak/blocking-queues-chat/master/screenshot.jpg "BlockingQueues chat screenshot")
 ---
 
 Chat is implemented in the client-server architecture. Server is started in the separate thread and uses concurrent enabled BlockingQueue to receive and broadcast messages to registered clients. Clients are registered and unregistered on the server to join or leave the chat. Each client has its own thread that listens for an incoming messages.
